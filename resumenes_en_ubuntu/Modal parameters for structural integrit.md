@@ -1,4 +1,4 @@
-Modal parameters for structural integrity
+    Modal parameters for structural integrity
 
 Modelo FEM = modelo numérico en la computadora
 prototipo = plataforma real, ubicada en el mar
@@ -27,27 +27,28 @@ Para simular la masa distribuida y las propiedades dinámicas adecuadas, se util
 La masa distribuida se simuló inundando las patas principales y añadiendo la masa apropiada a la cubierta.
 Frecuencia Natural y Masa Adicional:
 
-La frecuencia natural del modelo en el aire era más alta de lo deseado, por lo que se añadió masa adicional a la cubierta para reducir la frecuencia natural a un nivel aceptable.
+**La frecuencia natural del modelo en el aire era más alta de lo deseado, por lo que se añadió masa adicional a la cubierta para reducir la frecuencia natural a un nivel aceptable.**
+
 Detalles del Modelo:
 
 Los miembros tubulares se cortaron a dimensiones exactas según el factor de escala y se unieron utilizando un compuesto químico para asegurar una transferencia de carga adecuada.
 Se fabricó una estructura de cubierta de dimensiones reducidas y se fijaron placas de Perspex en las cubiertas principal y del sótano para soportar cargas adicionales en la cubierta.
 Por lo tanto, para aumentar el peso del modelo, se utilizaron dos métodos principales:
 
-Inundar las Patas Principales: Esto agrega masa distribuida a lo largo de las patas principales del modelo, simulando de manera efectiva la masa del prototipo.
-Agregar Masa Adicional en la Cubierta: Se añadió peso adicional en la cubierta mediante la colocación de placas de Perspex y otras masas apropiadas para ajustar la frecuencia natural del modelo a los valores deseados.
+- Inundar las Patas Principales: Esto agrega masa distribuida a lo largo de las patas principales del modelo, simulando de manera efectiva la masa del prototipo.
+- Agregar Masa Adicional en la Cubierta: Se añadió peso adicional en la cubierta mediante la colocación de placas de Perspex y otras masas apropiadas para ajustar la frecuencia natural del modelo a los valores deseados.
 Estos métodos ayudaron a replicar las propiedades dinámicas del prototipo a pesar de la diferencia en el módulo de elasticidad del material utilizado (PVC) en comparación con el acero del prototipo.
 
 
-La descripción en el artículo menciona que se colocaron placas de Perspex (un tipo de acrílico) en la cubierta principal y en la cubierta del sótano para soportar cargas adicionales en la cubierta, pero no proporciona detalles específicos sobre si estas placas por sí solas proporcionaron toda la masa adicional necesaria. Sin embargo, es posible deducir que estas placas actuaron como bases sobre las cuales se podrían añadir otros pesos adicionales.
+**La descripción en el artículo menciona que se colocaron placas de Perspex (un tipo de acrílico) en la cubierta principal y en la cubierta del sótano para soportar cargas adicionales en la cubierta, pero no proporciona detalles específicos sobre si estas placas por sí solas proporcionaron toda la masa adicional necesaria. Sin embargo, es posible deducir que estas placas actuaron como bases sobre las cuales se podrían añadir otros pesos adicionales.**
 
-Es común en la construcción de modelos a escala añadir masa extra utilizando pesos adicionales (como pesas de n kilogramos) para simular con mayor precisión las características del prototipo original, especialmente cuando el material del modelo (como el PVC) tiene un módulo de elasticidad diferente al del material del prototipo (como el acero).
+Es común en la construcción de modelos a escala añadir masa extra utilizando pesos adicionales (como pesas de _n_ kilogramos) para simular con mayor precisión las características del prototipo original, especialmente cuando el material del modelo (como el PVC) **tiene un módulo de elasticidad diferente al del material del prototipo (como el acero).**
 
 Basado en la información proporcionada, podemos inferir lo siguiente:
 
-Placas de Perspex como soporte: Las placas de Perspex probablemente sirvieron como superficies rígidas y estables sobre las cuales se podrían añadir otros pesos adicionales.
-Añadir masa adicional: Además de las placas de Perspex, es probable que se hayan añadido pesos adicionales (pesas, bloques de metal, etc.) para alcanzar la masa necesaria y ajustar las propiedades dinámicas del modelo.
-Esto es consistente con la práctica común en modelado a escala donde se necesita ajustar la masa para asegurar que el modelo represente fielmente las características dinámicas del prototipo.
+**Placas de Perspex como soporte: Las placas de Perspex probablemente sirvieron como superficies rígidas y estables sobre las cuales se podrían añadir otros pesos adicionales.**
+**Añadir masa adicional: Además de las placas de Perspex, es probable que se hayan añadido pesos adicionales (pesas, bloques de metal, etc.) para alcanzar la masa necesaria y ajustar las propiedades dinámicas del modelo.**
+**Esto es consistente con la práctica común en modelado a escala donde se necesita ajustar la masa para asegurar que el modelo represente fielmente las características dinámicas del prototipo.**
 
 Para confirmar esta interpretación y obtener más detalles específicos, podrías revisar otras partes del artículo que mencionen cómo se añadieron las masas adicionales o revisar cualquier figura o tabla que detalle la distribución de masas en el modelo.
 
@@ -101,3 +102,4 @@ A partir de los resultados obtenidos de los análisis dinámicos de una platafor
 
 Conclusiones
 A partir de los resultados obtenidos de los análisis dinámicos de una plataforma petrolera, se realizó un estudio con un modelo físico para verificar las conclusiones y comprobar la adecuación de las técnicas de medición para la recolección de datos. Los análisis y las pruebas del modelo demuestran que el monitoreo de la integridad estructural basado en la respuesta dinámica es una técnica viable, siempre que las mediciones no se limiten solo a los cambios de frecuencia en la cubierta. Aunque estas conclusiones no se basan en mediciones de campo reales, los resultados indican que la técnica de medición actual es adecuada para obtener los parámetros modales de la plataforma, como las frecuencias naturales y los vectores modales en dos direcciones perpendiculares. Se ha demostrado que las características modales pueden revelar no solo la presencia de daños estructurales sino también su ubicación sin ambigüedades. La sensibilidad de los vectores modales perpendiculares a la dirección modal predominante está claramente establecida tanto para daños en miembros portantes de carga como en miembros altamente redundantes. Basado en todos estos resultados, se sugiere un esquema para el monitoreo de la integridad que puede ser utilizado en plataformas existentes y en plataformas por instalarse. Se recomienda que todos los dispositivos necesarios se instalen de antemano durante la etapa de fabricación.
+
